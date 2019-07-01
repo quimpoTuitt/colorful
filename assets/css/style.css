@@ -1,0 +1,81 @@
+/*css reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.menu {
+	height: 100px;
+	background-color: #b2d6ff;
+}
+
+.sidebar {
+	height: 300px;
+	width: 200px;
+	float: left;
+	background-color: #f09a9d;
+}
+
+.content {
+	height: 500px;
+	width: 650px;
+	float: left;
+	background-color: #f5cf8e;
+	padding: 20px;
+}
+
+.footer {
+	/*height: 200px;*/
+	clear: both;
+	background-color: pink;
+}
+
+.column {
+	background-color: #b2d6ff;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	overflow: scroll;
+}
+
+.clear:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.avatar {
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #d6e9fe;*/
+	background-image: url(../images/dog.jpg);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
+}
